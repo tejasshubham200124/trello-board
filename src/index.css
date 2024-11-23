@@ -1,0 +1,104 @@
+.trello-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px
+}
+
+.input-section input {
+  width: 300px;
+  height: 20px;
+  background: transparent;
+  border-radius: 7px;
+  padding: 10px 15px;
+  border: 2px solid gainsboro;
+}
+
+.trello-header button {
+  padding: 8px;
+  border-radius: 7px;
+  background: transparent;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.trello-buttons {
+  display: flex;
+  gap: 20px
+}
+
+.employee-section {
+  width: 100%
+}
+
+.board {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  gap: 20px
+}
+
+.pending-section {
+  background-color: aliceblue;
+  padding: 10px 15px;
+  flex: 1
+}
+
+.inProgress-section {
+  background-color: aliceblue;
+  padding: 10px 15px;
+  flex: 1
+}
+
+.completed-section {
+  background-color: aliceblue;
+  padding: 10px 15px;
+  flex: 1
+}
+
+.content {
+  display: flex;
+flex-direction: column;
+  gap: 20px;
+  background-color: snow;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: 1px solid lightblue;
+  
+}
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.additional-details{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  gap:10px
+}
+.additional-details button{
+  padding: 10px 15px;
+  background-color: transparent;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.pending{
+  background-color: red;
+}
+
+.in-progress{
+  background-color: yellow;
+}
+
+.changeStatus{
+  display: flex;
+  width:100%;
+  gap:8px
+}
+
